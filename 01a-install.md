@@ -51,9 +51,9 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
-Python 3.
+___Python 3.___
 
-The why, you have answered best!
+___The why, you have answered best!___
 
 >**All HackerRank Python pre-work is configured for Python 3 only.  Therefore, Python 3 is the recommended version.**  
 
@@ -64,7 +64,7 @@ In the Terminal:
 
 `python3 --version`
 
-Python 3.6.4 :: Anaconda, Inc.
+___Python 3.6.4 :: Anaconda, Inc.___
 
  
 

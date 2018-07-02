@@ -27,7 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * deleting a file : **rm <_filename_>**
 * renaming a file : **mv -f <_source_> <_target_>**
 * listing hidden files: __ls -ld .?*__
-* copying a file from one directory to another : **cp <_source_> <_target_> **
+* copying a file from one directory to another : **cp <_source_> <_target_>**
 
 ---
 

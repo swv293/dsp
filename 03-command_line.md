@@ -27,15 +27,14 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`     : Lists the content of the current directory or specified directory. 
+`ls -a`  : Lists the files in a directory including the dot files. 
+`ls -l`  : Lists the files in long format, including details such as read/write access to individual directories, \n date last modified and size amongst others.
+`ls -lh` : Same as above but with the h option expresses size in bytes, kilobytes etc.  
+`ls -lah`: Same as above but with all the dot files included as well, due to a option.  
+`ls -t`  : Same as the ls command, but is sorted in the order of when the files were modified last (lastest first), before arranging in a lexicological manner.
+`ls -Glp`: Returns a colorised list in the long format (-l) with directories colored differently than files (-G). In addition the -p option returns the directories with a / in the end. 
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -43,7 +42,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
 
 ---
 

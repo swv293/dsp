@@ -23,7 +23,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * show current working directory path : **pwd**
 * creating a directory : **mkdir <_dir name_>**
 * deleting a directory : **rmdir <_dir name_>**
-* creating a file using `touch` command
+* creating a file using `touch` command : **touch <_filename_>**
 * deleting a file : **rm <_filename_>**
 * renaming a file : **mv -f <_source_> <_target_>**
 * listing hidden files: __ls -ld .?*__

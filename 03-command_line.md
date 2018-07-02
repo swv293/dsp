@@ -29,6 +29,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * listing hidden files: __ls -ld .?*__
 * copying a file from one directory to another : **cp <_source_> <_target_>**
 
+_My entries to the cheat sheet_
+
+* 
+*
 ---
 
 ### Q2.  List Files in Unix   
@@ -40,9 +44,9 @@ What do the following commands do:
 
 `ls -l`  : Lists the files in long format, including details such as read/write access to individual directories, date last modified and size amongst others.
 
-`ls -lh` : Same as above but with the h option expresses size in bytes, kilobytes etc. 
+`ls -lh` : Same as above but with the -h option expresses size in bytes, kilobytes etc. 
 
-`ls -lah`: Same as above but with all the dot files included as well, due to a option.
+`ls -lah`: Same as above but with all the dot files included as well, due to -a option.
 
 `ls -t`  : Same as the ls command, but is sorted in the order of when the files were modified last (lastest first), before arranging in a lexicological manner.
 
@@ -55,6 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
+* 
+*
+*
+*
+*
 
 
 ---
@@ -63,7 +72,15 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` is a command line utility which take items from standard input and carries out the specific task assigned to it one at a time. In other words, it helps set up an execution pipeline.
+
+One way to use this function is shown below: 
+
+```
+echo 'file1 file2 file3' | xargs mkdir
+```
+
+I found this blog post useful https://shapeshed.com/unix-xargs/.
 
  
 

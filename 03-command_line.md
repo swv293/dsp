@@ -31,8 +31,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 _My entries to the cheat sheet_
 
-* 
-*
+* Help manual on any command: **man <_command_>**
+* Find file: **locate <_filename_>**
 ---
 
 ### Q2.  List Files in Unix   
@@ -80,7 +80,6 @@ One way to use this function is shown below:
 echo 'file1 file2 file3' | xargs mkdir
 ```
 
-I found this blog post useful https://shapeshed.com/unix-xargs/.
 
  
 

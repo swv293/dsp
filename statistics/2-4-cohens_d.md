@@ -56,7 +56,8 @@ The actual difference in the weights is 0.125 lb.
 firsts.totalwgt_lb.var(), others.totalwgt_lb.var()
 ```
 4. Outliers: Not many outliers in either groups. Sample code pasted below.
-```for weight, freq in first_wgt.Smallest(10):
+```
+for weight, freq in first_wgt.Smallest(10):
     print(weight, freq)
 ```
 

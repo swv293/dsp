@@ -44,7 +44,7 @@ What do the following commands do:
 
 `ls -l`  : Lists the files in long format, including details such as read/write access to individual directories, date last modified and size amongst others.
 
-`ls -lh` : Same as above but with the -h option expresses size in bytes, kilobytes etc. 
+`ls -lh` : Same as above but with the -h option (human readable) expresses size in bytes, kilobytes etc. 
 
 `ls -lah`: Same as above but with all the dot files included as well, due to -a option.
 
@@ -59,11 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-* `ls -li`
-* ` `
-* ` `
-* ` `
-* ` `
+* `ls -lu` : returns a list sorted by name, and shows time the file/dir was last accessed.
+* `ls -m ` : returns a comma-separated list.
+* `ls -R <dir name>` : returns all the subdirectories recursively within the dir name provided. If dir name not provided, will return subdirectories for all directories which can be very confusing to follow!
+* `ls -ltu ` : returna a list sorted by access time and shows the time in the list as well.
+* `ls -A ` : returns a list without the . and .. entries. A = Almost all
 
 
 ---

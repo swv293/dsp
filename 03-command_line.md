@@ -62,7 +62,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 * `ls -lu` : returns a list sorted by name, and shows time the file/dir was last accessed.
 * `ls -m ` : returns a comma-separated list.
 * `ls -R <dir name>` : returns all the subdirectories recursively within the dir name provided. If dir name not provided, will return subdirectories for all directories which can be very confusing to follow!
-* `ls -ltu ` : returna a list sorted by access time and shows the time in the list as well.
+* `ls -ltu ` : returns a list sorted by access time and shows the time in the list as well.
 * `ls -A ` : returns a list without the . and .. entries. A = Almost all
 
 

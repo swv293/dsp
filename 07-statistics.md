@@ -88,34 +88,35 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> One can rephrase this question to ask - "What is the probability Elvis is an identical twin given he had a twin brother?"
 
-We can tackle this question in one of two ways.
+>> We can tackle this question in one of two ways.
 
-Given 1500 births, the total number of expected identical twins would be: 1500/300 = 5, half of which be boy-boy and the other half girl-girl.
+>> Given 1500 births, the total number of expected identical twins would be: 1500/300 = 5, half of which be boy-boy and the other half girl-girl.
 
-The total number of fraternal twins in the same set of 1500 births would be: 1500/125 = 12. Here the numbers will be equally distributed between boy-boy, girl-girl, boy-girl and girl-boy.
+>> The total number of fraternal twins in the same set of 1500 births would be: 1500/125 = 12. Here the numbers will be equally distributed between boy-boy, girl-girl, boy-girl and girl-boy.
 
-Therefore  the total number of boy-boy twins would be = 2.5 + 3 = 5.5
+>> Therefore  the total number of boy-boy twins would be = 2.5 + 3 = 5.5
 
-Of these 2.5 births would be identical twins, so the probability of Elvis being an identical twin is 2.5/5.5 or 5/11 or 45.45%
+>> Of these 2.5 births would be identical twins, so the probability of Elvis being an identical twin is 2.5/5.5 or 5/11 or 45.45%
 
-We can arrive at the same conclusion using the Bayes' Theorem:
+>> We can arrive at the same conclusion using the Bayes' Theorem:
 
-P(identical twin|twin brother)= P(twin brother|identical twin) P(identical twin)/P(twin brother)
-
-
-P(twin brother|identical twin) = P(twin brother and identical twin)/P(identical twin)
-                               = (1/2 . 1/300)/1/300
-			       = 1/2
-
-P(twin brother) = P(twin identical brother) + P(twin fraternal brother)
-                =(1/2 . 1/300) + (1/4 . 1/125)
-		=11/3000
-
-Therefore, P(identical twin|twin brother) = (1/2 . 1/300)/ 11/3000
-                                          = 5/11
+>> P(identical twin|twin brother)= P(twin brother|identical twin) P(identical twin)/P(twin brother)
 
 
-:smiley:
+>> In the above equation, 
+>> P(twin brother|identical twin) = P(twin brother and identical twin)/P(identical twin)
+>>                                = (1/2 . 1/300)/1/300
+>>   			          = 1/2
+
+>> P(twin brother) = P(twin identical brother) + P(twin fraternal brother)
+>>                 =(1/2 . 1/300) + (1/4 . 1/125)
+>> 		   =11/3000
+
+>> Therefore, P(identical twin|twin brother) = (1/2 . 1/300)/ 11/3000
+>>                                           = 5/11
+
+
+>> :smiley:
 
 
 

@@ -39,6 +39,9 @@ thinkplot.Hist(first_wgt,  align='right', width=width)
 thinkplot.Hist(other_wgt, align='left', width=width)
 thinkplot.Config(xlabel='weight in lb', ylabel='Count', xlim=[0, 14])
 ```
+
+![Distribution of total weights in lb of first born kids versus others](https://github.com/swv293/ThinkStats2/blob/master/code/firsts_weight.png)
+
 Here are the key takeaways from the distribution.
 
 1. Central tendency: The weights of both the categories cluster around 7 pounds. The birth weight of the others group tends to move right compared to the firsts, suggesting a slight increase in their birth weights. But is this increase significant is what we'd like to answer.

@@ -127,20 +127,20 @@ How do frequentist and Bayesian statistics compare?
 
 >> The **Frequentist** interpretation of probability, views the probability of an event as its frequency of occurance. That is, if an experiment is repeated N times out of which the specific outcome occurs n times, the probability p of the outcome is given by the formula:
 
-p = n/N
+>> p = n/N
 
 
-In this view, the data is a random variable, while the probability is fixed - from the idea that as N approches infinity, n is the total number of the specific outcome) - and the variability comes from the sampling this data.
+>> In this view, the data is a random variable, while the probability is fixed - from the idea that as N approches infinity, n is the total number of the specific outcome) - and the variability comes from the sampling this data.
 
-The **Bayesian ** approach differs from the frequentist in that the data is considered fixed, while the probability of an outcome based on the data changes with respect to our belief of the likelihood of an outcome. The Bayes' Theorem allows us to include prior knowledge to calculate what the outcome may be. Mayes thorem states:
+>> The **Bayesian** approach differs from the frequentist in that the data is considered fixed, while the probability of an outcome based on the data changes with respect to our belief of the likelihood of an outcome. The Bayes' Theorem allows us to include prior knowledge to calculate what the outcome may be. Bayes' theorem states:
 
-P(A|B) = P(B|A) P(A)/P(B)
+>> P(A|B) = P(B|A) P(A)/P(B)
 
-Where we want to determine the probability of A given that B has occurred. This can be calulated if we know what is the probability of B given A has occurred along with the probabilities of A and B separately and individually. 
+>> Where we want to determine the probability of A given that B has occurred. This can be calulated if we know what is the probability of B given A has occurred along with the probabilities of A and B separately and individually. 
 
-The idea of Bayesian probability makes sense if we were to calulate the probability of events that cannot be repeated infinitely.
+>> The idea of Bayesian probability makes sense if we were to calulate the probability of events that cannot be repeated infinitely.
 
-If we take the classical case of a coin toss, a frequentist approach would result in a 50:50 probability for either heads or tails. However, if we knew that there was a certain likelihood of heads occuring more than tails, as in a biased coin, then Bayes' Theorem will reflect that by increasing the probabilty of the heads.
+>> If we take the classical case of a coin toss, a frequentist approach would result in a 50:50 probability for either heads or tails. However, if we knew that there was a certain likelihood of heads occuring more than tails, as in a biased coin, then Bayes' Theorem will reflect that by increasing the probabilty of the heads.
 
 ---
 

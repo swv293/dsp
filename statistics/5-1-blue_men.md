@@ -28,4 +28,4 @@ percent = (b-a)*100
 print(percent)
 ```
 
-This returns an answer of 34.274683763147365. Therefore, about 34.3% of the US mae population is eligible for joining the Blue Man group.
+This returns an answer of 34.274683763147365. Therefore, about 34.3% of the US male population is eligible for joining the Blue Man group.

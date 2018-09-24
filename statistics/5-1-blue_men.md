@@ -29,3 +29,5 @@ print(percent)
 ```
 
 This returns an answer of 34.274683763147365. Therefore, about 34.3% of the US male population is eligible for joining the Blue Man group.
+
+This answer makes sense as the mean for the us population is 178 cm, which is very close to 177.8 cm - the lower limit of the height requirement of the Blue Man group. Now, the upper limit of 185.42 cm - is close to + 1 σ from the mean (178 + 7.7 = 185.7 cm). Now, in a normal distribution about 68.26% of values lie  within 1σ, which divides to 34.13% on either side of the mean. Given the height requirement of the Blue Man Group, these values match well with one another!
